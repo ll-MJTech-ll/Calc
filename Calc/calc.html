@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<link rel="stylesheet" href="calc.css">
+<body>
+
+<div data-ng-app="" data-ng-bind="Input A;Input B">
+
+<div><h2>Calculator</h2></div>
+
+Input A: <input type="number" ng-model="quantity">
+Input B: <input type="number" ng-model="price">
+
+<p><b>Addition:</b> {{quantity + price}}</p>
+<p><b>Substraction:</b> {{quantity - price}}</p>
+<p><b>Multiplication:</b> {{quantity * price}}</p>
+<p><b>Division:</b> {{quantity / price}}</p>
+
+</div>
+
+</body>
+</html>
